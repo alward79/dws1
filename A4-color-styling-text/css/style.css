@@ -1,0 +1,29 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	color:white;
+}
+
+h1{
+	color:black;
+}
+#four{
+	background-color: #CC4A14;
+}
+
+#three{
+	background-color: #99583D;
+}
+
+#two{
+	background-color: #FF0000;
+}
+
+#one{
+	background-color: #40FF40;
+}
+
+#zero{
+	background-color: #54CC14;
+}
