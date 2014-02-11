@@ -1,0 +1,20 @@
+@charset "UTF-8";
+/* CSS Document for B3 olor*/
+/*COLOR THEME: https://kuler.adobe.com/image_green_orange-color-theme-3447971/*/
+
+body{
+	/*page color*/
+    background: #D75A28;
+	/*text color*/	
+	color: white;
+}
+h1, h2{
+	/*background color behing heddings*/
+    background: rgba(57, 113, 107, 1.0);
+	/*color for hedings*/
+	color: hsl(36, 88%, 90%);
+}
+ul{
+	/*list colors*/
+	color: rgb(252, 234, 207);
+}
