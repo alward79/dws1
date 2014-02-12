@@ -4,13 +4,13 @@
 
 body{
 	/*page color*/
-    background: #D75A28;
+    background: rgba(38, 115, 119, 1.0);
 	/*text color*/	
 	color: white;
 }
 h1, h2{
 	/*background color behing heddings*/
-    background: rgba(57, 113, 107, 1.0);
+    background: #D75A28;
 	/*color for hedings*/
 	color: hsl(36, 88%, 90%);
 }
