@@ -1,0 +1,52 @@
+@charset "UTF-8";
+/* CSS Document b4 */
+
+body{
+    font-family: helvetica, arial, sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 1px;
+    text-align: justify;
+    background: rgba(38, 115, 119, 1.0);
+	color: white;
+}
+
+h1, h2{
+	/*heading color and style*/
+	color: #D75A28;
+	text-shadow: 2px 2px #F7F6C3;
+}
+
+h3{
+	/*sub-heading color*/
+	color: hsl(36, 88%, 90%);
+}
+
+p{
+	/*paragraph font*/	
+   	font-weight: lighter;
+}
+
+ul{
+	/*list style and color*/
+    font-style: italic;
+	color: #F7F6C3;
+}
+
+a:link{
+	/*link color*/
+    color: #D75A28;
+    text-decoration: none;
+}
+a:visited{
+	/*visited site color change*/
+    color: #000000;
+}
+a:hover{
+	/*hover color and underline*/
+    color: #F28159;
+    text-decoration: underline;
+}
+a:active{
+    color: #F28159;
+}
