@@ -1,0 +1,49 @@
+@charset "UTF-8";
+/* CSS Document */
+body{
+	font-family: Arial, Verdana, sans-serif;
+}
+
+ #navigation li{
+	list-style-type: none;
+}
+
+#content p{
+	text-align: left;
+}
+
+h1{
+	font-size: 150%;
+}
+h2{
+	font-size: 133%;
+}
+
+h3{
+	font-size: 125%;
+}
+
+#content img{
+	float: left;
+	padding-right: 20px;
+	padding-bottom: 20px;
+}
+
+#column1of2, #column2of2{
+	width: 280px;
+}
+
+#column1of2{
+	float: left;
+	padding-left: 390px;
+}
+
+#column2of2{
+	float: right;
+	padding-right: 390px;
+
+}
+
+#contact{
+	float: both;
+}
