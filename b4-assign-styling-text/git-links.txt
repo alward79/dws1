@@ -1,0 +1,2 @@
+https://github.com/alward79/dws1/tree/gh-pages/b4-assign-styling-text
+http://alward79.github.io/dws1/b4-assign-styling-text/styling-text.html

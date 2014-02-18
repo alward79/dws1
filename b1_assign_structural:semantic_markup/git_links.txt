@@ -1,2 +1,3 @@
-https://github.com/alward79/dws1/blob/master/b1_assign_structural:semantic_markup/cookie_recipe.html
-https://github.com/alward79/dws1/blob/master/b1_assign_structural:semantic_markup/element_definitions.html
+http://alward79.github.io/dws1/b1_assign_structural:semantic_markup/cookie_recipe.html
+http://alward79.github.io/dws1/b1_assign_structural:semantic_markup/element_definitions.html
+https://github.com/alward79/dws1/tree/gh-pages/b1_assign_structural:semantic_markup
