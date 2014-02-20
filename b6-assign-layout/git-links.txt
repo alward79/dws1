@@ -1,1 +1,2 @@
 https://github.com/alward79/dws1/tree/gh-pages/B6-assign-layout
+http://alward79.github.io/dws1/b6-assign-layout/layout.html
