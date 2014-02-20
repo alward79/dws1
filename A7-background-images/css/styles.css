@@ -1,0 +1,93 @@
+@charset "UTF-8";
+/* CSS Document */
+body{
+	font-family: Arial, Verdana, sans-serif;
+}
+
+ #navigation li{
+	list-style-type: none;
+}
+
+#content p{
+	text-align: left;
+}
+
+h1{
+	font-size: 150%;
+}
+h2{
+	font-size: 133%;
+}
+
+h3{
+	font-size: 125%;
+}
+
+#content img{
+	float: left;
+	padding-right: 20px;
+	padding-bottom: 20px;
+}
+
+#column1of2, #column2of2{
+	width: 280px;
+}
+
+#column1of2{
+	float: left;
+	padding-left: 390px;
+}
+
+#column2of2{
+	float: right;
+	padding-right: 390px;
+
+}
+
+#contact{
+	float: both;
+}
+
+#gallery_content {
+	width: 500px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.entry{
+	font-size: 70%;
+	width: 220px;
+	height:220px;
+	float: left;
+	margin: 10px;
+	background-image: url("../images/shadow.png");
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+
+figure{
+	width: 202px;
+	height: 193px;
+	margin: 0px;
+	padding: 9px;
+	background-color: #e7e3d8;
+}
+ 
+figure img{
+	width: 200px;
+	height: 150px;
+	border: 1px, solid, #d6d6d6;
+}
+
+figcaption{
+	background-image: url("../images/icon.png");
+	background-repeat: no-repeat;
+	padding-top: 5px;
+	padding-left: 25px;
+}
+
+figcapton a{
+	padding: 0px;
+}
+
+
