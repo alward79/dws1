@@ -82,7 +82,7 @@ ul{
     border-radius: 7px;
     padding: 20px;
     margin: 5px auto;
-    background-color: #709984;
+	background: linear-gradient(#709984, #5D7F6E);
     box-shadow: 1px 1px 5px #F7F6C3;
 	clear:
 }
