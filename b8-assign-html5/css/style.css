@@ -1,0 +1,213 @@
+@charset "UTF-8";
+/* CSS Document b8 */
+
+body{
+    font-family: helvetica, arial, sans-serif;
+    font-size: 1.000em;
+    line-height: 22px;
+    letter-spacing: 1px;
+	background-image: url(../images/presence-ii.png);
+	background-repeat: repeat;
+	background-position: top center;	
+	color: white;
+}
+#page{
+	width:90%;
+	margin:0 auto;
+	background: radial-gradient(rgba(96, 158, 162, 1), rgba(38, 115, 119, 1.0));
+	padding:2%;
+	border-radius:15px;
+	box-shadow: 2px 2px 5px #2c2c2c;
+}
+
+h1{
+	/*main heading box and font style*/
+	font-size: 2.500em;
+	width: 400px;
+    height: 24px;
+    border: 5px double #1C2E3D;
+	border-radius: 5px;
+    padding: 10px;
+    margin: 40px auto;
+	text-align:center;
+	text-shadow: 2px 2px 3px white;
+	color: #D75A28;
+}
+
+h2{
+	/*sub-heading 2 box and font style*/
+	font-size: 2.000em;
+	width: 400px;
+    height: 24px;
+    border: 5px double #1C2E3D;
+	border-radius: 5px;
+    padding: 10px;
+    margin: 20px auto;
+	text-align:center;
+	text-shadow: 2px 2px 3px #000;
+	color: #D75A28;
+	background-image: url(../images/shooting-star-fill-32.png);
+	background-repeat: no-repeat;
+	background-position: center left;
+}
+
+h3{
+	/*heading 3 color*/
+	text-align: center;
+	color: hsla(17,69%,50%,1);
+	text-shadow: 1px 1px 1px #000;
+
+}
+
+#title{
+	font-size: 24px;
+	color:rgba(96, 158, 162, 1);
+	text-shadow: 1px 1px 2px;	
+	text-align: center;
+}
+
+p{
+   font-weight: lighter;
+   padding: 1% 1% 1% 1%;
+}
+
+ul{
+	/*list style*/
+	clear: both;                                                   
+    list-style-type: round;
+    display: inline-block;
+    border: 5px thin #1C2E3D;
+    border-radius: 7px;
+    padding: 20px;
+    margin: 5px auto;
+	background: linear-gradient(#709984, #5D7F6E);
+    box-shadow: 1px 1px 3px #000;
+}
+
+a:link{
+	/*color of links*/
+    color: #4F1C2E;
+    text-decoration: none;
+}
+
+a:visited{
+	/*color the links turn after being visited*/
+    color: #000000;
+}
+
+a:hover{
+	/*color link changes when it's hovered over*/
+    color: white;
+    text-decoration: underline;
+}
+
+a:active{
+    color: #F28159;
+}
+
+#column1{
+	padding-left: 20px;
+	
+}
+#column1, #column2, #column3
+{
+	width: 30%;
+	float: left;
+	margin: 1%;
+}
+
+#aside-column li{
+	text-shadow: 1px 1px 1px;
+}
+
+header{
+    background: #F28159;
+    width: 90%;
+    margin: 5px auto;
+    padding: 0px;
+    border-radius: 5px;
+}
+
+nav{
+	text-align: center;	
+	box-shadow: 1px 2px 2px #2f4f4f;
+
+}
+
+nav li{
+	display: inline-block;
+	margin: 0px 25px;
+	border-witch: 0 1px;
+	border-bottom-color: #2f4f4f;
+
+}
+
+.sidebar{
+    width: 200px;
+	margin: 30px 1px 0px 15px;
+	padding: 5px;
+	background: white;
+	color: rgba(96, 158, 162, 1);
+	border-radius:7px;
+	box-shadow: 1px 1px 2px #2f4f4f;
+	float: right;
+	text-align:center;
+	text-shadow: 1px 1px 1px;
+
+}
+footer{
+    background: #F28159;
+    width: 100%;
+    margin: auto;
+    border-radius: 5px;
+	text-align:center;
+	color: black;
+	box-shadow: 2px 2px 2px #2f4f4f;
+}
+
+img{
+	width: 20%;
+	float: right;
+	box-shadow: 2px 1px 3px #000;	
+}
+
+table{
+	border-spacing: 0px;
+	width: auto;
+	margin-top: 30px;
+}
+
+.tab, tr{
+	background-color: #709984;	
+	font-size: 90%;
+	margin: 0px;
+}
+
+.tab{
+	letter-spacing: 1px;
+	text-shadow: 1px 1px 1px black;
+	padding: 2px;
+}
+
+tr, td{
+	padding: 5px 30px 5px 10px;
+	border-top: 1px solid #f1f8fe;
+	border-bottom: 1px solid #cbd2d8;
+	border-right: 1px solid #cbd2d8;
+	text-align: right;
+	
+}
+
+.even{
+    background-color: #5D7F6E;
+}
+
+tr:hover{
+    background-color: #F28159;
+}
+
+article{
+	border-spacing: 0px;
+	width:25%;
+	float:right;
+}
