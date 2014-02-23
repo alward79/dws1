@@ -1,0 +1,168 @@
+@charset "UTF-8";
+/* CSS Document */
+body{
+	font-family: Arial, Verdana, sans-serif;
+}
+
+ #navigation li{
+	list-style-type: none;
+}
+
+#content p{
+	text-align: left;
+}
+
+h1{
+	font-size: 150%;
+}
+h2{
+	font-size: 133%;
+}
+
+h3{
+	font-size: 125%;
+}
+
+#content img{
+	float: left;
+	padding-right: 20px;
+	padding-bottom: 20px;
+}
+
+#column1of2, #column2of2{
+	width: 280px;
+}
+
+#column1of2{
+	float: left;
+	padding-left: 390px;
+}
+
+#column2of2{
+	float: right;
+	padding-right: 390px;
+
+}
+
+#contact{
+	float: both;
+}
+
+#gallery_content {
+	width: 500px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.entry{
+	font-size: 70%;
+	width: 220px;
+	height:220px;
+	float: left;
+	margin: 10px;
+	background-image: url("file:///Macintosh HD/Users/Angelena/Documents/class/Designing for Web Standards I/forms/images/shadow.png");
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+
+figure{
+	width: 202px;
+	height: 193px;
+	margin: 0px;
+	padding: 9px;
+	background-color: #e7e3d8;
+}
+ 
+figure img{
+	width: 200px;
+	height: 150px;
+	border: 1px, solid, #d6d6d6;
+}
+
+figcaption{
+	background-image: url("file:///Macintosh HD/Users/Angelena/Documents/class/Designing for Web Standards I/forms/images/icon.png");
+	background-repeat: no-repeat;
+	padding-top: 5px;
+	padding-left: 25px;
+}
+
+figcapton a{
+	padding: 0px;
+}
+
+table{
+	border-spacing: 0px;
+}
+tr{
+	text-align: left;
+}
+td{
+	text-align: right;
+}
+th, td {
+	/*5 pixel top padding, 30 pixel right padding, 5 pixel bottom padding, and 10 pixel left padding*/
+	padding: 5px 30px 5px 10px;
+	font-size: 90%;
+	margin: 0px;
+	background-color: #cbd2d8;
+	border-top: 1px solid #f1f8fe;
+	border-bottom: 1px solid #cbd2d8;
+	border-right: 1px solid #cbd2d8;
+	/*1 pixel horizontal offset, 1 pixel vertical offset, 1 pixel blur, and the color #ffffff*/
+	text-shadow: 1px 1px 1px #ffffff;
+}
+
+.even{
+	background-color: #F1F8FE;
+}
+
+#contact_content{
+	width: 350px;
+}
+
+#fieldset{
+	width: 310px;
+	margin-top: 20px;
+	border: 1px solid #ffffff;
+}
+
+legend{
+	font-style: italic;
+	color: #666666;
+}
+
+.title{
+	float: left;
+	width: 150px;
+	clear: left;
+}
+
+input{
+	width: 120px;
+	border: 1px solid #d6d6d5;
+	padding: 2px;
+}
+
+input[type="text"]:focus, input[type="text"]:hover {
+    background-color: #D0E2F0;
+    border: 1px solid #999999;
+}
+
+#submit {
+	width: 310px;
+	text-align: right;
+}
+
+input[type="submit"] {
+    background-color: #009966;
+    border: 1px solid #006633;
+    border-radius: 5px;
+    color: #FFFFFF;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+input[type="submit"]:hover {
+	background-color: #00cc33;
+	cursor: pointer;
+}
