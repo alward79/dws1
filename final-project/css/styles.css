@@ -278,15 +278,14 @@ input:hover, input:focus{
 	color: #F2EBBF;
 }
 
-
 /*footer*/
 #footer {
 	padding: 25px;
 	clear: both;
-	margin-left: 20%;
 }
 
 #footer p, #footer a {
+	text-align: center;
 	color: #a00f00;
 }
 
