@@ -1,0 +1,296 @@
+/* CSS/HTML Final */
+header, section, footer, aside, nav, article, figure, figcaption, label {
+    display: block;
+}
+
+body{
+	/*background of whole site*/
+	background:url("../images/khaki.gif") repeat center;
+    text-align: justify;
+	font-family: helvetica, arial, sans-serif;
+}
+
+/*set the color and width of page*/
+#page{
+	width: 90%;
+	background-color: #693d00;
+	margin: auto;
+	box-shadow: 2px 2px 5px #666;
+	border-radius: 7px;
+}
+/*includes h1 and nav*/
+header {	
+	margin: 1% 1% 1% 1%;
+	text-align: center;
+	font-weight: bold;
+	text-shadow: 3px 3px 4px #333;
+}
+
+/*heading 1 and logo*/
+h1{
+	background: url("../images/barnesville.jpg") no-repeat top left;
+	background-size: 20%;
+	text-align: right;
+	margin: 1px 15px 1px 5px;
+	padding: 1px;
+	font-size: 5.333em;
+	padding: 0px 25px 0px 25px;
+	color: #a00f00;
+	font-family: 'Aguafina Script', cursive;
+	letter-spacing: 2px;
+}
+
+/*the strong font of h1*/
+h1 strong{
+    font-family: helvetica, arial, sans-serif;
+	letter-spacing: 0px;
+}
+
+/*set the font of h2*/
+h2{
+	font-family: 'Aguafina Script', cursive;
+	font-size: 3em;
+	letter-spacing: 4px;
+}
+
+/*change the text of h2 and h3*/
+h2, h3{
+	color: #cfc8a2;
+	text-shadow: 3px 3px 3px #333;
+	margin: 10px;
+}
+
+/*set the color, font, and margin of parapgraphs*/
+p{
+	color: white;
+	text-align: justify;
+    font-family: helvetica, arial, sans-serif;
+	font: normal lighter 1em Arial, Helvetica, sans-serif ;
+	line-height: 1.4em;
+	margin: 20px;
+}
+
+/*nav bar font and background*/
+nav{
+	font-size: 1.125em;
+	background: linear-gradient(135deg, #7c4800 5%,#be9e6c 48%, #CFC8A2 97%);
+	width: 95%;
+	border-radius: 0.625em;
+	margin: 1% auto;
+}
+
+nav a{
+	text-decoration: none;
+	color: #a00f00;
+	text-shadow: 2px 2px 2px #333;
+	font-size: 1em;
+	margin: 15px;
+}
+
+ul{
+	height: auto;
+    padding: 1% 0%;
+    margin: 0px;
+}
+
+ul li{
+	display: inline;
+	padding: 0%;
+}/* end nav bar setup*/
+
+/*change link color*/
+a{
+	text-decoration: none;
+	color: #17bcf1;
+}
+
+/*change link when its hovered over*/
+a:hover{
+	color: white;
+}
+
+/*change link when active*/
+a:active {
+	text-decoration: underline;
+}
+
+/*change link when visited*/
+a:visited {
+	text-decoration: underline;
+}
+
+figcapton a{
+	padding: 1px;
+}
+
+figcaption {
+	font-size: .750em;
+}
+
+#history img, #kitchen img, #blloyds img, #swints img, #buggy img, #bbq img{
+	border-radius: 5px;
+}
+
+/*first image setup*/
+#history figure{
+	margin: 15px;
+	float: right;
+	border-radius: 5px;
+}
+
+/*country kitchen set up*/
+#kitchen  h3{
+	background-image: url("../images/food-silverware-32.png");
+	background-repeat: no-repeat;
+	background-size: 20px;
+	padding-left:25px;
+}
+#kitchen img {
+	width: 95%;
+}
+
+#kitchen p, #kitchen a{
+	float: left;
+	width: 45%;
+}
+
+#food {
+	float: right;
+}
+
+/*country kitchen image and figcaption position*/
+#kitchen figure {
+	float:left;
+	border-radius: 5px;
+}
+	
+#pecans{
+	clear: both;
+	margin-left:15px;
+}
+
+#swints{
+	margin-left: 50px;
+}
+
+#blloyds, #swints {
+	clear: right;
+	width: 45%;
+	float: left;
+	padding-bottom: 15px;
+}
+
+#blloyds img {
+	width: 123%;
+}
+
+#swints img{
+	width: 100%;
+}
+
+#festival {
+	clear: both;
+}
+#buggy img{
+	width: 90%;
+}
+
+#bbq figure{
+	float: left;
+}
+#facts h2 {
+	color: #a00f00;
+	text-align: center;
+}
+
+/*ol setup*/
+#facts {
+	background-color: #cfc8a2;
+	margin: 3% auto;
+	padding: 0% 1% 1% 1%;
+	border-radius: 5px;
+	width: 80%;
+	color: #a00f00;
+}
+
+#facts li {
+	list-style: circle;
+}
+
+/*table*/
+table {
+	color: hsla(0, 100%, 100%, 1);
+	letter-spacing: 1px;
+	clear: both;
+	width: 82%;
+	margin: auto;
+	font-size: .875em;
+	padding: 5px;
+	border-radius: 5px;
+	border: hidden;
+	border-spacing: 5px;
+	box-shadow: 2px 2px 3px #333;
+	text-shadow: 2px 2px 2px #333;
+	background: linear-gradient(to bottom, rgba(143, 98, 0, 1) 0%,rgba(197,199,201,1) 50%,rgba(197,199,201,1) 53%, rgba(143, 98, 0, 1) 100%);
+}
+
+.title{
+	text-transform: uppercase;
+	text-align: center;
+	padding-bottom: 20px;
+	font-size: 1.125em;
+	text-decoration: underline;
+}
+
+blockquote{
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+	padding:25px 0px 25px 0px;
+}
+
+/*contact form*/
+#contact h3 {
+	text-align: center;
+}
+
+form{
+	clear: both;
+	margin-left: 40%;
+	font-size: 1em;
+	color: #fff;
+	padding-bottom:10px;
+}
+input{
+	clear: both;
+	display: block;
+	width: 35%;
+	border-radius: 3px;
+}
+
+input:hover, input:focus{
+	background-color: #cfc8a2;
+	border: 1px dotted;
+}
+
+#submit:hover, #submit:focus{
+	background-color: #cfc8a2;
+	color: #F2EBBF;
+}
+
+
+/*footer*/
+#footer {
+	padding: 25px;
+	clear: both;
+	margin-left: 20%;
+}
+
+#footer p, #footer a {
+	color: #a00f00;
+}
+
+#footer a:hover{
+	color: white;
+}
+
